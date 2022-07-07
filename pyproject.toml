@@ -1,0 +1,20 @@
+[tool.poetry]
+name = 'opengl-diamond'
+version = '0.1.0'
+description = 'it rotates'
+
+license = 'MIT'
+
+authors = [
+	'Mohamadreza Taalebi <the.doors.are.locked@gmail.com>',
+]
+
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "3.8"
+glfw = "^2.5.3"
+PyOpenGL = "^3.1.6"
+numpy = "^1.23.0"
+pyrr = "^0.10.3"
+Pillow = "^9.1.1"
